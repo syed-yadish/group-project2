@@ -1,0 +1,135 @@
+/*---------navigation---------*/
+.navbar-dark {
+    background-color: #0071BC !important;
+    text-transform: uppercase !important;
+}
+
+.navbar .navbar-nav > a:hover, .navbar .navbar-nav > a:focus {
+    background-color: #5CA4D4;
+}
+
+.navbar {
+    padding: 0rem 3rem !important;
+}
+
+.navbar-brand:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    background-color: #0071BC !important;
+    margin: 0 !important;
+    color: white !important;
+    border-radius: 0 !important;
+    min-width: 15rem !important;
+}
+
+.dropdown-item {
+    text-transform: uppercase !important;
+    color: white !important;
+    padding: 1rem 1.5rem !important;
+}
+
+.dropdown-item:hover {
+    background-color: #5CA4D4 !important;
+}
+
+.nav-link {
+    padding: 2rem 2rem !important;
+    color: white !important;
+}
+
+.dropdown-menu-right {
+    right: 4rem !important;
+}
+/*--------end navigation----------*/
+
+/*--------typography----------*/
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #0071BC;
+    text-transform: uppercase;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 28px;
+    letter-spacing: 0.25em;
+    color: #0071BC;
+}
+
+h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #252525;
+
+}
+/*--------end typography----------*/
+
+/*--------main----------*/
+#about {
+    background-image: url(../assets/banner-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-us {
+    height: 100vh;
+}
+
+button {
+    border: 1px solid #0071BC !important;
+    color: #0071BC !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+    text-transform: uppercase !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 19px !important;
+    padding: .5rem 1rem !important;
+    border-radius: 0 !important;
+}
+
+button:hover {
+    background-color: #d1e5f3 !important;
+}
+/*--------end main----------*/
+
+/*--------footer----------*/
+footer {
+    background-color: #0071BC;
+}
+
+.fab {
+    color: white;
+    font-size: 25px !important;
+}
+
+.fab:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+/*--------end footer----------*/
