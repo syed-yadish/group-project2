@@ -1,0 +1,62 @@
+/*---------navigation---------*/
+.navbar-dark {
+  background-color: #0071bc !important;
+  text-transform: uppercase !important;
+}
+
+.navbar .navbar-nav > a:hover,
+.navbar .navbar-nav > a:focus {
+  background-color: #5ca4d4;
+}
+
+.navbar {
+  padding: 0rem 3rem !important;
+}
+
+.navbar-brand:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.dropdown-menu {
+  background-color: #0071bc !important;
+  margin: 0 !important;
+  color: white !important;
+  border-radius: 0 !important;
+  min-width: 15rem !important;
+}
+
+.dropdown-item {
+  text-transform: uppercase !important;
+  color: white !important;
+  padding: 1rem 1.5rem !important;
+}
+
+.dropdown-item:hover {
+  background-color: #5ca4d4 !important;
+}
+
+.nav-link {
+  padding: 2rem 2rem !important;
+  color: white !important;
+}
+
+.dropdown-menu-right {
+  right: 4rem !important;
+}
+/*--------end navigation----------*/
+/*--------footer----------*/
+footer {
+  background-color: #0071bc;
+}
+
+.fab {
+  color: white;
+  font-size: 25px !important;
+}
+
+.fab:hover {
+  transition: transform 0.2s;
+  transform: scale(1.2);
+}
+/*--------end footer----------*/

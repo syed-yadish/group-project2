@@ -1,4 +1,12 @@
-/*--------typography----------*/
+#home {
+  background-image: url(../assets/lp_image1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.homepage {
+  height: 60vh;
+}
 h2 {
   font-family: "Libre Franklin", sans-serif;
   color: #0071bc;
@@ -10,27 +18,6 @@ h2 {
   text-align: center;
   letter-spacing: 0.2em;
 }
-
-h3 {
-  font-family: "Libre Franklin", sans-serif;
-  text-transform: uppercase;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 28px;
-  letter-spacing: 0.25em;
-  color: #0071bc;
-}
-
-h4 {
-  font-family: "Libre Franklin", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: white;
-}
-
 p {
   font-family: "Libre Franklin", sans-serif;
   font-style: normal;
@@ -39,20 +26,6 @@ p {
   line-height: 27px;
   color: #252525;
 }
-/*--------end typography----------*/
-
-/*--------main----------*/
-#about {
-  background-image: url(../assets/banner-about.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.about-us {
-  height: 100vh;
-}
-
 button {
   border: 1px solid #0071bc !important;
   color: #0071bc !important;
@@ -68,4 +41,3 @@ button {
 button:hover {
   background-color: #d1e5f3 !important;
 }
-/*--------end main----------*/
