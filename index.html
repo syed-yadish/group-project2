@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <title>W Technologies</title>
-    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -28,15 +28,16 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="/style/head-foot.css" />
-    <link rel="stylesheet" href="/style/home.css" />
+    <link rel="stylesheet" href="style/head-foot.css" />
+    <link rel="stylesheet" href="style/home.css" />
+    <link rel="stylesheet" href="style/main.css">
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-xl navbar-dark">
-        <a href="#" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
           <img
-            src="../assets/logotype-white.svg"
+            src="assets/logotype-white.svg"
             alt="Logotype"
             title="W Technology Logotype"
             width="80"
@@ -57,21 +58,24 @@
           class="collapse navbar-collapse justify-content-start"
         >
           <div class="navbar-nav ml-auto">
-            <a href="#" class="nav-item nav-link active"><span>Home</span></a>
-            <a
-              href="#"
-              data-toggle="dropdown"
-              class="nav-item nav-link dropdown-toggle user-action"
-              ><span>About Us</span></a
-            >
-            <div class="dropdown-menu dropdown-menu-right" role="menu">
-              <a href="#" class="dropdown-item">adam</a>
-              <a href="#" class="dropdown-item">erica</a>
-              <a href="#" class="dropdown-item">linda</a>
-              <a href="#" class="dropdown-item">maria</a>
-              <a href="#" class="dropdown-item">ben</a>
-            </div>
-            <a href="#" class="nav-item nav-link"><span>Contact</span></a>
+            <a href="index.html" class="nav-item nav-link active"><span>Home</span></a>
+            <div class="btn-group">
+              <a href="pages/about.html"><button type="button" class="btn-nav btn nav-item nav-link-btn active">About
+                      Us</button></a>
+              <button type="button" class="btn-nav btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right" role="menu">
+                <a class="dropdown-item" href="../pages/pages-about/adam.html">adam</a>
+                <a class="dropdown-item" href="../pages/pages-about/erica.html">erica</a>
+                <a class="dropdown-item" href="../pages/pages-about/linda.html">linda</a>
+                <a class="dropdown-item" href="../pages/pages-about/maria.html">maria</a>
+                <a class="dropdown-item" href="../pages/pages-about/eric.html">eric</a>
+                <a class="dropdown-item" href="../pages/pages-about/ben.html">ben</a>
+              </div>
+          </div>
+            <a href="pages/contact.html" class="nav-item nav-link"><span>Contact</span></a>
           </div>
         </div>
       </nav>
@@ -81,7 +85,7 @@
         <div
           class="container-sm d-flex align-items-center justify-content-end homepage"
         >
-          <img src="/assets/Logobig.png" alt="logobig" />
+          <img src="assets/Logobig.png" alt="logobig" />
         </div>
       </section>
       <br />
@@ -98,7 +102,7 @@
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="/assets/lp2.jpeg"
+                  src="assets/lp2.jpeg"
                   class="img-fluid rounded-start"
                   alt="web"
                 />
@@ -139,7 +143,7 @@
               <br>
               <div class="col-md-4 offset-md-1">
                 <img
-                  src="/assets/lp3.jpeg"
+                  src="assets/lp3.jpeg"
                   class="img-fluid rounded-start"
                   alt="mobile"
                 />
@@ -151,7 +155,7 @@
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="/assets/lp4.jpeg"
+                  src="assets/lp4.jpeg"
                   class="img-fluid rounded-start"
                   alt="web"
                 />
@@ -186,7 +190,7 @@
               <br>
               <div class="col-md-4 offset-md-1">
                 <img
-                  src="/assets/lp5.jpeg"
+                  src="assets/lp5.jpeg"
                   class="img-fluid rounded-start"
                   alt="mobile"
                 />
@@ -199,7 +203,7 @@
         <div class="container-sm d-flex justify-content-center">
             <br>
           <a href="#"
-            ><button type="button" class="btn btn-outline">contact</button></a
+            ><button type="button" class="btn-main btn btn-outline">contact</button></a
           >
         </div>
       </section>
@@ -264,9 +268,9 @@
         <div
           class="container-xl row align-items-center mx-auto justify-content-md-between px-3 py-5"
         >
-          <a href="#" class="navbar-brand">
+          <a href="index.html" class="navbar-brand">
             <img
-              src="../assets/logotype-white.svg"
+              src="assets/logotype-white.svg"
               alt="Logotype"
               title="W Technology Logotype"
               width="90"

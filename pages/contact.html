@@ -10,15 +10,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="/style/contact.css">
-    <link rel="stylesheet" href="/style/head-foot.css">
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="../style/head-foot.css">
+    <link rel="stylesheet" href="../style/main.css">
     <link rel="icon" href="/assets/favicon.png">
     <title>Contact</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-xl navbar-dark">
-            <a href="#" class="navbar-brand">
+            <a href="../index.html" class="navbar-brand">
                 <img src="../assets/logotype-white.svg" alt="Logotype" title="W Technology Logotype" width="80" height="80">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -27,16 +28,22 @@
             <!-- Collection of nav links, forms, and other content for toggling -->
             <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
                 <div class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link active"><span>Home</span></a>
-                    <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle user-action"><span>About Us</span></a>
-                    <div class="dropdown-menu dropdown-menu-right" role="menu">
-                        <a href="#" class="dropdown-item">adam</a>
-                        <a href="#" class="dropdown-item">erica</a>
-                        <a href="#" class="dropdown-item">linda</a>
-                        <a href="#" class="dropdown-item">maria</a>
-                        <a href="#" class="dropdown-item">ben</a>
-                    </div>
-                    <a href="#" class="nav-item nav-link"><span>Contact</span></a>
+                    <a href="../index.html" class="nav-item nav-link active"><span>Home</span></a>
+                    <div class="btn-group">
+                        <a href="about.html"><button type="button" class="btn-nav btn nav-item nav-link-btn active">About Us</button></a>
+                        <button type="button" class="btn-nav btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                          <a class="dropdown-item" href="../pages/pages-about/adam.html">adam</a>
+                          <a class="dropdown-item" href="../pages/pages-about/erica.html">erica</a>
+                          <a class="dropdown-item" href="../pages/pages-about/linda.html">linda</a>
+                          <a class="dropdown-item" href="../pages/pages-about/maria.html">maria</a>
+                          <a class="dropdown-item" href="../pages/pages-about/eric.html">eric</a>
+                          <a class="dropdown-item" href="../pages/pages-about/ben.html">ben</a>
+                        </div>
+                      </div>
+                    <a href="../pages/contact.html" class="nav-item nav-link"><span>Contact</span></a>
                 </div>
             </div>
         </nav>
@@ -111,7 +118,7 @@
     </section>
     <footer>
         <div class="container-xl row align-items-center mx-auto justify-content-md-between px-3 py-5">
-            <a href="#" class="navbar-brand">
+            <a href="../index.html" class="navbar-brand">
                 <img src="../assets/logotype-white.svg" alt="Logotype" title="W Technology Logotype" width="90" height="90">
             </a>
             <h4 class="py-md-0 py-2">0000-000 00<br>info@email.com</h4>

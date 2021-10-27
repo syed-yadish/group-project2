@@ -41,9 +41,26 @@
   color: white !important;
 }
 
-.dropdown-menu-right {
-  right: 4rem !important;
+.nav-link-btn {
+  padding: 2rem 0.5rem 2rem 2rem;
 }
+
+.btn-nav {
+  background-color: #0071bc !important;
+  text-transform: uppercase !important;
+  color: white !important;
+  border-radius: 0% !important;
+}
+
+.btn:hover {
+  background-color: #5ca4d4 !important;
+  text-decoration: none !important;
+}
+
+.btn:active {
+  border: none !important;
+}
+
 /*--------end navigation----------*/
 /*--------footer----------*/
 footer {
