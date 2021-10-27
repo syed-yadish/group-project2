@@ -41,3 +41,14 @@ button {
 button:hover {
   background-color: #d1e5f3 !important;
 }
+h4 {
+  font-family: "Libre Franklin", sans-serif;
+  color: #0071bc;
+  text-transform: uppercase;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
