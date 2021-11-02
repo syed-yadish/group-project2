@@ -7,6 +7,13 @@
 .homepage {
   height: 60vh;
 }
+.home-end {
+  height: 30vh;
+  background-image: url(../assets/lp6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 h4 {
   font-family: "Libre Franklin", sans-serif;
