@@ -1,56 +1,60 @@
 h2 {
-    font-family: "Libre Franklin", sans-serif;
-    color: #0071bc;
-    text-transform: uppercase;
-    font-style: bold;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.2em;
-  }
-  
-  h3 {
-    font-family: "Libre Franklin", sans-serif;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 28px;
-    letter-spacing: 0.25em;
-    color: #0071bc;
-  }
-  
-  h4 {
-    font-family: "Libre Franklin", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: white;
-  } 
-  
-  p {
-    font-family: "Libre Franklin", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 27px;
-    color: #252525;
-  }
+  font-family: "Libre Franklin", sans-serif;
+  color: #0071bc;
+  text-transform: uppercase;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
 
-  .btn-main {
-    border: 1px solid #0071bc !important;
-    color: #0071bc !important;
-    font-family: "Libre Franklin", sans-serif !important;
-    text-transform: uppercase !important;
-    font-style: normal !important;
-    font-weight: 500 !important;
-    font-size: 19px !important;
-    padding: 0.5rem 1rem !important;
-    border-radius: 0 !important;
-  }
-  
-  .btn-main:hover {
-    background-color: #d1e5f3 !important;
-  }
+h3 {
+  font-family: "Libre Franklin", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  letter-spacing: 0.25em;
+  color: #0071bc;
+}
+
+h4 {
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+h5 {
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  color: white;
+}
+p {
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: #252525;
+}
+
+.btn-main {
+  border: 1px solid #0071bc !important;
+  color: #0071bc !important;
+  font-family: "Libre Franklin", sans-serif !important;
+  text-transform: uppercase !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 19px !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0 !important;
+}
+
+.btn-main:hover {
+  background-color: #d1e5f3 !important;
+}
