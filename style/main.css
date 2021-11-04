@@ -34,6 +34,14 @@ h5 {
   font-style: normal;
   color: white;
 }
+h6 {
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  color: #0071bc;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
 p {
   font-family: "Libre Franklin", sans-serif;
   font-style: normal;
@@ -57,4 +65,107 @@ p {
 
 .btn-main:hover {
   background-color: #d1e5f3 !important;
+}
+
+.btn-shine {
+  font-family: "Libre Franklin", sans-serif;
+  letter-spacing: 0.2em;
+  transform: translate(-50%, -50%);
+  padding: 12px 48px;
+  color: #0071bc;
+  background: linear-gradient(
+    to right,
+    #f00303 0,
+    #f0c403 5%,
+    rgb(157, 240, 3) 10%,
+    #03f0bd 15%,
+    #0071bc 20%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 35px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 420px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 420px;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 420px;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 420px;
+  }
+}
+.animeh2 {
+  font: 400 2em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+
+  /* Clip Background Image */
+
+  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
